@@ -20,9 +20,10 @@ public class Principal {
         ManipuladorDeArquivos mp = new ManipuladorDeArquivos();
         File arquivo = mp.inicializa();
         String texto = String.valueOf(f3.getValorReal());
-        mp.escreve(arquivo, texto, true);
-        mp.escreve(arquivo, texto, false);
+//        mp.escreve(arquivo, texto, true);
+//        mp.escreve(arquivo, texto, false);
         mp.leia(arquivo);
+        mp.leiaFracao(arquivo);
 
     }
 }
