@@ -9,7 +9,7 @@ public class Aula5MatrizDinamicaParte3 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite a quantidade de associados:");
         int qtdAssociados = Integer.parseInt(teclado.nextLine());
-        System.out.println("Digite a quantidade MÁXIMA de dependentes:");
+        System.out.println("Digite a quantidade MAXIMA de dependentes:");
         int qtdDependentes = Integer.parseInt(teclado.nextLine()) + 1;
         cadastros = new Pessoa[qtdAssociados][qtdDependentes];
 
